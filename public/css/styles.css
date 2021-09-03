@@ -1,0 +1,9 @@
+
+
+body{
+    background-repeat: no-repeat;
+    background-image: url(../images/bgimage.jpg);
+    background-size: cover;
+    background-position: center;
+    overflow-x: hidden;
+}

@@ -1,0 +1,122 @@
+:root{
+    --green-color: #00642d;
+    --white-color: #fff;
+  }
+.actualite .actualite-body{
+    width: 80%;
+    margin: auto;
+}
+
+.actualite .navBar{
+    margin-top: 0;
+    margin-bottom: 80px;
+}
+.actualite .actualite-body .grand-titre{
+    color: var(--white-color);
+    font-weight: normal;
+    font-size: 36px;
+}
+
+.actualite .banniere{
+    display: flex;
+    justify-content: space-between;
+}
+
+.actualite .banniere .block-1 .actualite{
+    position: absolute;
+    top: -16px;
+    left: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-transform: uppercase;
+    color: var(--white-color);
+    background: var(--green-color);
+    font-weight: bold;
+}
+
+.actualite .banniere .block-1 .titre{
+    font-size: 36px;
+    color: var(--white-color);
+    font-weight: bold;
+}
+.actualite .banniere .block-1 .date{
+    color: var(--white-color);
+    font-weight: normal;
+}
+
+.actualite .banniere .block-1{
+    width: 50%;
+    background: gray;
+    max-height: 23rem;
+    padding: 40px;
+    position: relative;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.actualite .banniere .block-1:hover{
+    background: var(--green-color);
+}
+
+.actualite .banniere .block-2:hover{
+    transition: ease-in all .7s;
+    transform: scale(1.01);
+    text-decoration: none;
+    overflow: hidden;
+}
+.actualite .banniere .block-2{
+    width: 50%;
+    background-image: url(https://www.onf.fr/outils/actus/fafe9fd8-b325-450c-8c01-b6f1629dcae6/++versions++/6/++illustration++link/++i18n++data:fr/++thumb++pano:w600?_=1630428248.962645);
+    height: 23rem;
+}
+
+.actualite .actualite-body .type-actu{
+    margin-top: 80px;
+    margin-bottom: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.actualite .actualite-body .type-actu .image{
+    width: 100%;
+    height: 60%;
+    overflow: hidden;
+}
+.actualite .actualite-body .type-actu .image img{
+    width: 100%;
+    height: 100%;
+}
+
+.actualite .actualite-body .type-actu .actu{
+    width: 20rem;
+    height: 25rem;
+    background: gray;
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.actualite .actualite-body .type-actu .actu .ressource{
+    position: absolute;
+    top: -16px;
+    right: 0;
+    padding: 5px 20px;
+    color: var(--white-color);
+    background: var(--green-color);
+}
+
+.actualite .actualite-body .type-actu .actu .text-content{
+    padding: 0px 20px;
+    font-size: 24px;
+    color: black;
+}
+.actualite .actualite-body .type-actu .actu .link{
+    text-decoration: none;
+}
+
+.actualite .actualite-body .type-actu .actu:hover{
+    background: var(--green-color);
+}
+
+.actualite .actualite-body .type-actu .actu:hover .text-content{
+    color: var(--white-color);
+}

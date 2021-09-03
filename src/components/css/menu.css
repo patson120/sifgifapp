@@ -1,0 +1,130 @@
+:root{
+    --green-color: #00642d;
+    --white-color: #fff;
+    --primary-green-color: #00522c;
+}
+
+.navBar{
+    background: #fff;
+    border-top: green 2px solid;
+    width: 100vw;
+    margin-top: -10px;
+}
+.navBar .menu{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.navBar .menu .image-logo{
+    width: 3rem;
+    height: 3rem;
+    overflow: hidden;
+}
+.navBar .menu .blocks-logo{
+    height: 3rem;
+    display: flex;
+    padding: 5px 0;
+    flex-direction: row;
+}
+.navBar .menu .logo-cam{
+    width: 3rem;
+    height: 3rem;
+    overflow: hidden;
+}
+.navBar .menu .logo-cam img{
+    width: 100%;
+    height: 100%;
+}
+
+
+.navBar .menu .image-logo img{
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+.navBar .menu .links .link{
+    display: inline-block;
+    text-decoration: none;
+    padding: 5px 15px;
+    font-size: 18px;
+}
+.navBar .menu .links{
+    display: block;
+    height: 100%;
+    padding-top: 10px;
+}
+.navBar .menu .links .link:hover, .navBar .menu .link:focus{
+    color: #fff;
+    background: #00642d;
+    border-radius: 5px;
+}
+
+.navBar .menu .sub-links .hamburger{
+    margin-top: 15px;
+    padding-right: 10px;
+    padding-left: 10px;
+    cursor: pointer;
+    
+}
+.navBar .menu .sub-links{
+    position: relative;
+    display: none;
+}
+.navBar .menu .sub-links .menu{
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 90%;
+    right: 0%;
+    z-index: 1;
+    min-width: 190px;
+    height: auto;
+    overflow: hidden;
+    background: var(--green-color);
+    border-radius: 5px;
+    padding: 10px 0;
+}
+.navBar .menu .sub-links .menu .link{
+    display: inline-block;
+    width: 100%;
+    padding: 10px 10px 10px 0;
+    border-radius: 0;
+    font-size: 18px;
+    font-weight: normal;
+    text-decoration: none;
+    text-align: center;
+    color:  var(--white-color);
+}
+.navBar .menu .sub-links .menu .link:hover,
+.navBar .menu .sub-links .menu .link:focus{
+    background: var(--white-color);
+    color: black;
+    font-weight: bold;
+}
+
+.navBar .menu .sub-links .hamburger .bar{
+    width: 30px;
+    background: #000;
+    border: 2.5px solid #000;
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+
+
+.navBar .menu .sub-links .hamburger .bar:nth-child(3){
+    width: 20px;
+}
+.navBar .menu .sub-links:hover .menu{
+    display: block;
+}
+
+
+@media (max-width: 830px){
+    .navBar .menu .links{
+        display: none;
+    }
+    .navBar .menu .sub-links{
+        display: block;
+    }
+}
