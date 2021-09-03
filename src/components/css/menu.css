@@ -118,7 +118,6 @@
     display: block;
 }
 
-
 @media (max-width: 830px){
     .navBar .menu .links{
         display: none;
