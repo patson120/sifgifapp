@@ -27,10 +27,9 @@
 }
 
 .page3 .categories .categorie{
-    max-width: 20rem;
-    min-width: 11rem;
+    width: 20rem;
     position: relative;
-    margin: 20px auto;
+    margin: 20px 0;
     padding: 5px 0 5px 60px;
     border-radius: 15px;
     box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
@@ -97,7 +96,17 @@
     .page3 .avantages{
         width: 100% !important;
     }
+    .page3 .categories .categorie{
+        width: 13rem !important;
+    }
 }
+
+@media (max-width: 713px){
+    .page3 .categories .categorie{
+        width: 100% !important;
+    }
+}
+
 @media (max-width: 1092px){
     .page3 .categories .categorie{
         width: 18rem;
@@ -112,7 +121,7 @@
 
 .minfof,
 .operateur{
-    color: var(--green-color) !important;
+    color:black !important;
 }
 .page3 .avantages{
     width: 45%;
