@@ -7,13 +7,9 @@
     margin: auto;
 }
 
-.actualite .navBar{
-    margin-top: 0;
-    margin-bottom: 60px;
-}
 .actualite .actualite-body .grand-titre{
-    color: var(--white-color);
-    font-weight: normal;
+    color: black;
+    font-weight: bold;
     font-size: 36px;
 }
 

@@ -12,6 +12,9 @@ body{
     background-position: center;
     overflow-x: hidden;
 }
+.navBar{
+    margin-bottom: 70px;
+}
 
 .block-titre {
     border: none;

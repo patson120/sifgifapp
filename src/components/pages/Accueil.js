@@ -9,10 +9,10 @@ export const Accueil = () => {
 
         <div>
             <div className="App">
-                <header className="App-header">
                     <div>
                         <Menu />
                     </div>
+                <header className="App-header">
                     {/* <Logo />
                     <h3 className="App-link">
                         <a  href="http://sigif2.cm/sigif/" target="_blank" rel="noreferrer">SIGIF 2</a>
