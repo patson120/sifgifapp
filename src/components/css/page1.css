@@ -13,12 +13,6 @@
     margin-top: -12.12rem;
 }
 
-@media (max-width: 768px){
-    .App-header .navBar{
-        padding-top: 3px;
-    }
-}
-
 .page1 .title {
     text-align: center;
     text-transform: uppercase;
