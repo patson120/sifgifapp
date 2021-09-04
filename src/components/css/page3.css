@@ -19,17 +19,18 @@
 }
 
 .page3 .categories{
-    width: 90%;
+    max-width: 80%;
     margin: 40px auto;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 .page3 .categories .categorie{
-    width: 25rem;
+    max-width: 20rem;
+    min-width: 11rem;
     position: relative;
-    margin: 20px auto 30px auto;
+    margin: 20px auto;
     padding: 5px 0 5px 60px;
     border-radius: 15px;
     box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
@@ -65,6 +66,19 @@
     width: 100%;
     padding: 0;
     margin: 0;
+}
+
+@media (max-width: 520px){
+    .page3 .categorie .liste{
+        padding-left: 2rem;
+    }
+    
+    .page3 .categories .categorie .icon{
+        width: 5rem;
+        height: 5rem;
+        top: 14%;
+        left: -1.2rem;
+    }
 }
 
 .page3 .avantages-block{

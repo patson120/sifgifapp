@@ -15,33 +15,6 @@
     height: 100%;
 }
 
-.block-titre {
-    border: none;
-    background: red;
-    margin: 20px auto;
-    width: 80%;
-    border-radius: 25px;
-    height: 40px;
-    padding: 0;
-    justify-content: center;
-}
-.block-titre .grand-titre{
-    margin-top: 0px !important;
-    padding-top: 4px;
-    height: 36px;
-    border-radius: 25px;
-    border: none;
-    background: #fff;
-    width: 80% !important;
-    margin-left: 10%;
-    margin-right: 10%;
-}
-
-@media (max-width: 550px){
-    .block-titre .grand-titre{
-        font-size: 14px;
-    }
-}
 
 .block-logo .logo img{
     width: 100%;

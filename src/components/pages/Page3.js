@@ -2,6 +2,7 @@
 import React from 'react';
 import { Categories } from './Categories';
 import { Menu } from './Menu';
+import { Title } from './Title';
 
 const tab_minfof = {
     style: { backgroundColor: 'rgb(42, 151, 42)' },
@@ -32,16 +33,11 @@ export const Page3 = () => {
             <div>
                 <Menu />
             </div>
-            <div className="block-titre">
-                <h3 className="grand-titre">SIGIF 2 ET LA DEMATERIALISATION</h3>
-            </div>
+            <Title title="SIGIF 2 ET LA DEMATERIALISATION" />
             <div>
                 <Categories />
             </div>
-            <div className="block-titre">
-                <h3 className="grand-titre">SIGIF 2 : LES AVANTAGES</h3>
-            </div>
-
+            <Title title="SIGIF 2 : LES AVANTAGES" />
             <div className="avantages-block">
                 <div className="avantages">
                     <h3 className="grand-titre minfof">MINFOF</h3>

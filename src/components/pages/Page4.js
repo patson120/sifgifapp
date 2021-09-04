@@ -2,6 +2,7 @@ import React from 'react';
 import '../css/page4.css';
 import { Modules } from './Modules';
 import { Menu } from './Menu';
+import { Title } from './Title';
 
 export const Page4 = () => {
     return (
@@ -9,9 +10,7 @@ export const Page4 = () => {
             <div>
                 <Menu />
             </div>
-            <div className="block-titre">
-                <h3 className="grand-titre">SIGIF 2 : MODULES</h3>
-            </div>
+            <Title title="SIGIF 2 : MODULES" />
             <div>
                 <Modules />
             </div>
