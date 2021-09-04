@@ -9,7 +9,7 @@
 
 .actualite .navBar{
     margin-top: 0;
-    margin-bottom: 80px;
+    margin-bottom: 60px;
 }
 .actualite .actualite-body .grand-titre{
     color: var(--white-color);
@@ -54,15 +54,13 @@
         height: 15rem !important;
     }
     .actualite .banniere .block-1{
-        width: 100% !important;
-        height: 6rem !important;
-        padding: 0 40px !important;
+        width: 90% !important;
+        height: auto !important;
+        padding: 10px 40px !important;
     }
     .actualite .banniere .block-1 .titre{
-        font-size: 20px !important;
-    }
-    .actualite .banniere .block-1 .actualite{
-        left: 78.5% !important;
+        font-size: 20px;
+        padding-right: 10%;
     }
 }
 
@@ -95,7 +93,7 @@
 }
 
 .actualite .actualite-body .type-actu{
-    margin-top: 80px;
+    margin-top: 40px;
     margin-bottom: 100px;
     display: flex;
     flex-wrap: wrap;
