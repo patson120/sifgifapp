@@ -21,6 +21,7 @@
     display: flex;
     justify-content: center;
     overflow: hidden;
+    height: 23rem;
 }
 
 .actualite .banniere .block-1 .actualite{
@@ -80,7 +81,7 @@
 
 .actualite .banniere .block-2:hover{
     transition: ease-in all .7s;
-    transform: scale(1.01);
+    transform: scale(1.06);
     text-decoration: none;
     overflow: hidden;
 }
@@ -127,7 +128,7 @@
     }
 }
 .actualite .actualite-body .type-actu{
-    margin-top: 40px;
+    margin-top: 70px;
     margin-bottom: 100px;
     display: flex;
     flex-wrap: wrap;
