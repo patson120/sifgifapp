@@ -1,7 +1,6 @@
 
 .logo{
   height: 100%;
-  margin-bottom: 0px;
 }
 
 .logo img {
@@ -16,7 +15,7 @@
 }
 
 .App-header {
-  height: 25vh;
+  height: 23vh;
   display: flex;
   flex-direction: column;
   align-items: center;
