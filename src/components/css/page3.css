@@ -114,7 +114,8 @@
 
 .minfof,
 .operateur{
-    color:black !important;
+    color: black;
+    text-align: center;
 }
 .page3 .avantages{
     width: 45%;
