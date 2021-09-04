@@ -2,6 +2,7 @@ import React from 'react';
 import { Menu } from './Menu';
 import '../css/actualite.css';
 import { Link } from 'react-router-dom';
+import { Button } from './Button';
 
 const actualites = [
     { id: 1, ressource: "Actualité", link: "#", src: "./images/pexels-photo-1112186.jpeg", description: "A l'ombre de Quercus, rencontre avec le forestier et auteur Laurent Tillon" },
@@ -46,6 +47,10 @@ export const Actualite = () => {
                         </div>
                     ))}
                 </div>
+                
+                <Link to="">
+                    <Button title="Toutes les actualités"/>
+                </Link>
             </div>
         </div>
     );

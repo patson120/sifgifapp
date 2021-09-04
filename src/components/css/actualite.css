@@ -175,3 +175,33 @@
 .actualite .actualite-body .type-actu .actu:hover .text-content{
     color: var(--white-color);
 }
+.actualite .Button{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.actualite .Button button{
+    background: var(--white-color);
+    padding: 10px 20px;
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+    border: none;
+    border-radius: 50px;
+}
+
+.actualite .Button button .fa-arrow-right{
+    display: none;
+    margin-left: 10px;
+    color: var(--white-color);
+}
+.actualite .Button button:hover {
+    background: var(--green-color);
+    color: var(--white-color);
+    cursor: pointer;
+}
+
+.actualite .Button button:hover .fa-arrow-right{
+    transition: all 0.5 ease-out;
+    display: inline-block;
+}
