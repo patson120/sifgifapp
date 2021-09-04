@@ -10,12 +10,12 @@
     position: relative;
 }
 .App-header .navBar{
-    margin-top: -11.75rem;
+    margin-top: -12.12rem;
 }
 
 @media (max-width: 768px){
     .App-header .navBar{
-        padding-top: 15px;
+        padding-top: 3px;
     }
 }
 

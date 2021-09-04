@@ -10,13 +10,6 @@
     margin-bottom: 80px;
 }
 
-.page3 .grand-titre{
-    color: red;
-    font-weight: bold;
-    text-align: center;
-    text-decoration: underline;
-    margin-top: 2rem;
-}
 
 .page3 .categories{
     max-width: 80%;
@@ -121,7 +114,8 @@
 
 .minfof,
 .operateur{
-    color:black !important;
+    color: black;
+    text-align: center;
 }
 .page3 .avantages{
     width: 45%;
