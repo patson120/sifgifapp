@@ -19,7 +19,8 @@
 
 .actualite .banniere{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    overflow: hidden;
 }
 
 .actualite .banniere .block-1 .actualite{
@@ -35,7 +36,7 @@
 }
 
 .actualite .banniere .block-1 .titre{
-    font-size: 36px;
+    font-size: 30px;
     color: var(--white-color);
     font-weight: bold;
 }
@@ -43,11 +44,32 @@
     color: var(--white-color);
     font-weight: normal;
 }
+@media (max-width: 982px){
+    .actualite .banniere{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .actualite .banniere .block-2{
+        width: 100% !important;
+        height: 15rem !important;
+    }
+    .actualite .banniere .block-1{
+        width: 100% !important;
+        height: 6rem !important;
+        padding: 0 40px !important;
+    }
+    .actualite .banniere .block-1 .titre{
+        font-size: 20px !important;
+    }
+    .actualite .banniere .block-1 .actualite{
+        left: 78.5% !important;
+    }
+}
 
 .actualite .banniere .block-1{
     width: 50%;
     background: gray;
-    max-height: 23rem;
+    height: 100%;
     padding: 40px;
     position: relative;
     cursor: pointer;
@@ -67,7 +89,9 @@
 .actualite .banniere .block-2{
     width: 50%;
     background-image: url(https://www.onf.fr/outils/actus/fafe9fd8-b325-450c-8c01-b6f1629dcae6/++versions++/6/++illustration++link/++i18n++data:fr/++thumb++pano:w600?_=1630428248.962645);
-    height: 23rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 .actualite .actualite-body .type-actu{
