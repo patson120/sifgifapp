@@ -1,4 +1,5 @@
 import React from 'react';
+import { ModuleIcon } from './ModuleIcon';
 
 
 const object = [
@@ -15,7 +16,7 @@ const object = [
     { id: 11, icon: './dossiericon/ressources/icons/iconTRANSFORMATION_128x128.png', titre: "TRANSFORMATION", texte: "Gérer tout les processus de transformation jusqu'à l'obtention des colis de débités" },
     { id: 12, icon: './dossiericon/ressources/icons/iconFISCALITE_128x128.png', titre: "FISCALITE FORESTIERE", texte: "Générer les différents taxes liées à l'activité forestières et suivre leur recouvrement" },
     { id: 13, icon: './dossiericon/ressources/icons/iconCONTENTIEUX_128x128.png', titre: "CONTENCIEUX", texte: "Gérer et suivre les contencieux liés à l'activité forestière et initiés par le MINFOF" },
-    { id: 14, icon: './dossiericon/ressources/icons/iconCERTIFLEGALITE_128x128.png' , titre: "CERTIFICAT DE LAGALITE", texte: "Gérer les processus d'obtention du certificat de légalité, de la demande jusqu'à l'emission et l'activation  du certificat" },
+    { id: 14, icon: './dossiericon/ressources/icons/iconCERTIFLEGALITE_128x128.png', titre: "CERTIFICAT DE LAGALITE", texte: "Gérer les processus d'obtention du certificat de légalité, de la demande jusqu'à l'emission et l'activation  du certificat" },
     { id: 15, icon: './dossiericon/ressources/icons/iconEXPORTATION_128x128.png', titre: "EXPORTATIONS", texte: "Gérer les différents opérations liées à l'exploition des produits forestiers jusqu'à l'obtention de l'autorisation FLEGT" },
     { id: 16, icon: './dossiericon/ressources/icons/iconTRACABILITE_128x128.png', titre: "TRACABILITE", texte: "Tracer les produits forestiers et les documents émis par le système à travers leurs numéros de code-barres" },
     { id: 17, icon: './dossiericon/ressources/icons/iconRAPPORT_128x128.png', titre: "RAPPORT", texte: "Enregistrer les différents contrôles effectués par l'Administration forestière, compiler les données collectées sur le terrainn et produire les rapports" },
@@ -24,20 +25,24 @@ const object = [
 
 export const Modules = () => {
     return (
-        <div className="modules">
+        <div>
+            {/* <div className="modules">
 
-            {object.map(item => (
-                <div key={item.id} className="module">
-                    <div className="block1">
-                        <h4 className="titre">{item.titre}</h4>
-                        <div className="icon"><img src={item.icon} alt="" /></div>
+                {object.map(item => (
+                    <div key={item.id} className="module">
+                        <div className="block1">
+                            <h4 className="titre">{item.titre}</h4>
+                            <div className="icon"><img src={item.icon} alt="" /></div>
+                        </div>
+                        <div className="block2">
+                            <p>{item.texte}</p>
+                        </div>
                     </div>
-                    <div className="block2">
-                        <p>{item.texte}</p>
-                    </div>
-                </div>
-            ))}
-
+                ))}
+            </div> */}
+            <div style={{width: "80%", margin: "50px auto"}}>
+                <ModuleIcon object={object} />
+            </div>
         </div>
     );
 }
