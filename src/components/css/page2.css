@@ -21,16 +21,6 @@
     height: 100%;
 }
 
-.page2 .grand-titre{
-    color: red;
-    font-weight: bold;
-    text-align: center;
-    text-decoration: underline;
-    margin-top: 2rem;
-    display: inline-block;
-    width: 100%;
-}
-
 .page2 .criteres{
     display: flex;
     flex-wrap: wrap;
