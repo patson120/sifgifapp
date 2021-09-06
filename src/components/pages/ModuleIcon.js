@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import '../css/moduleIcon.css';
 
 export const ModuleIcon = (props) => {
-    var [icone, setIcone] = useState({});
+    const [icone, setIcone] = useState({});
 
     const handleClick = (icon) => {
         setIcone(icon)
@@ -34,6 +34,10 @@ const Modal = (props) => {
             <div className="Modal-content">
                 <div className="Modal-body">
                     <h1>{icon.titre}</h1>
+                    <h4>{icon.texte}</h4>
+                    <div>
+                        <img src={icon.icon} alt="" />
+                    </div>
                 </div>
             </div>
         </div>
