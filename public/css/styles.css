@@ -3,7 +3,8 @@
 :root{
     --green-color: #00642d;
     --white-color: #fff;
-  }
+    --primary-green-color: #00522c;
+}
 
 body{
     background-repeat: no-repeat;

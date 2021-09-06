@@ -8,8 +8,8 @@ export const ModuleIcon = (props) => {
         setIcone(icon)
         let modal = document.querySelector('.ModuleIcon .Modal');
         modal.style.display = 'block';
-        
     }
+
     return (
         <div className="ModuleIcon">
             {props.object.map(icon => (
@@ -33,17 +33,16 @@ const Modal = (props) => {
         <div className="Modal">
             <div className="Modal-content">
                 <div className="Modal-body">
-                    <h1>{icon.titre}</h1>
-                    <h4>{icon.texte}</h4>
-                    <div>
+                    <h1 className="titre">{icon.titre}</h1>
+                    <div className="icon">
                         <img src={icon.icon} alt="" />
                     </div>
+                    <p className="description">{icon.texte}</p>
                 </div>
             </div>
         </div>
     );
 }
-
 
 window.addEventListener('click', function(ev) {
     let modal = document.querySelector('.ModuleIcon .Modal');

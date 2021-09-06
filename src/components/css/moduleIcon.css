@@ -57,9 +57,30 @@
     margin: 100px auto;
     border-radius: 8px;
     background: var(--white-color);
-    display: flex;
-    justify-content : center;
-    align-items: center;
     padding: 20px;
     box-shadow: rgba(0, 0, 0, 0.8) 0px 4px 12px;
+ }
+
+ .ModuleIcon .Modal .Modal-content .Modal-body .titre{
+    text-align: center;
+ }
+
+ .ModuleIcon .Modal .Modal-content .Modal-body .icon{
+    width: 150px;
+    height: 150px;
+    margin: auto;
+    overflow: hidden;
+    border-radius: 8px;
+ }
+
+ .ModuleIcon .Modal .Modal-content .Modal-body .icon img{
+    width: 100%;
+    height: 100%;
+ }
+
+ .ModuleIcon .Modal .Modal-content .Modal-body .description{
+    text-align: justify;
+    font-weight: normal;
+    font-size: 16px;
+    padding: 20px;
  }
