@@ -5,6 +5,7 @@ export const ModuleIcon = (props) => {
     const [icone, setIcone] = useState({});
 
     const handleClick = (icon) => {
+        window.scrollTo(0, 0);
         setIcone(icon)
         let modal = document.querySelector('.ModuleIcon .Modal');
         modal.style.display = 'block';
@@ -33,10 +34,10 @@ const Modal = (props) => {
         <div className="Modal">
             <div className="Modal-content">
                 <div className="Modal-body">
-                    <h1 className="titre">{icon.titre}</h1>
                     <div className="icon">
                         <img src={icon.icon} alt="" />
                     </div>
+                    <h1 className="titre">{icon.titre}</h1>
                     <p className="description">{icon.texte}</p>
                 </div>
             </div>

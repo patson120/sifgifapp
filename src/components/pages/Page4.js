@@ -1,5 +1,4 @@
 import React from 'react';
-import '../css/page4.css';
 import { Modules } from './Modules';
 import { Menu } from './Menu';
 import { Title } from './Title';

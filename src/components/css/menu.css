@@ -15,29 +15,44 @@
     display: flex;
     justify-content: space-between;
 }
-.navBar .menu .image-logo{
-    width: 3rem;
-    height: 3rem;
+.navBar .menu .image-logo, 
+.navBar .menu .logo-cam{
+    width: auto;
+    height: 100%;
     overflow: hidden;
 }
 .navBar .menu .blocks-logo{
     height: 3rem;
     display: flex;
+    justify-content: center;
+    align-items: center;
     padding: 5px 0;
     flex-direction: row;
 }
-.navBar .menu .logo-cam{
-    width: 3rem;
-    height: 3rem;
-    overflow: hidden;
+
+@media (max-width: 600px){
+    .navBar .menu .blocks-logo{
+        height: 2rem;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+    .navBar .menu .sub-links .hamburger{
+        margin-top: 0px !important;
+        padding: 0 5px !important;
+    }
+    .navBar .menu .sub-links .hamburger .bar{
+        width: 25px !important;
+        border: 1px solid #000;
+        margin: 6px !important;
+    }
+    .navBar .menu .sub-links .hamburger .bar:nth-child(3){
+        width: 15px !important;
+    }
 }
+
+.navBar .menu .image-logo img,
 .navBar .menu .logo-cam img{
-    width: 100%;
-    height: 100%;
-}
-
-
-.navBar .menu .image-logo img{
     width: 100%;
     height: 100%;
     cursor: pointer;
