@@ -18,6 +18,7 @@
 
 .box .inner:first-child {
 	background-color: indianred;
+	/* background-color:  var(--green-color); */
 	color: darkred;
 	transform-origin: right;
 	transform: perspective(100px) rotateY(-15deg);

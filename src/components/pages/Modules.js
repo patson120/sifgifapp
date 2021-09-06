@@ -16,14 +16,16 @@ const object = [
     { id: 11, icon: './dossiericon/ressources/icons/iconTRANSFORMATION_128x128.png', titre: "TRANSFORMATION", texte: "Gérer tout les processus de transformation jusqu'à l'obtention des colis de débités" },
     { id: 12, icon: './dossiericon/ressources/icons/iconFISCALITE_128x128.png', titre: "FISCALITE FORESTIERE", texte: "Générer les différents taxes liées à l'activité forestières et suivre leur recouvrement" },
     { id: 13, icon: './dossiericon/ressources/icons/iconCONTENTIEUX_128x128.png', titre: "CONTENCIEUX", texte: "Gérer et suivre les contencieux liés à l'activité forestière et initiés par le MINFOF" },
-    { id: 14, icon: './dossiericon/ressources/icons/iconCERTIFLEGALITE_128x128.png', titre: "CERTIFICAT DE LAGALITE", texte: "Gérer les processus d'obtention du certificat de légalité, de la demande jusqu'à l'emission et l'activation  du certificat" },
+    { id: 14, icon: './dossiericon/ressources/icons/iconCERTIFLEGALITE_128x128.png', titre: "CERTIFICAT DE LEGALITE", texte: "Gérer les processus d'obtention du certificat de légalité, de la demande jusqu'à l'emission et l'activation  du certificat" },
     { id: 15, icon: './dossiericon/ressources/icons/iconEXPORTATION_128x128.png', titre: "EXPORTATIONS", texte: "Gérer les différents opérations liées à l'exploition des produits forestiers jusqu'à l'obtention de l'autorisation FLEGT" },
     { id: 16, icon: './dossiericon/ressources/icons/iconTRACABILITE_128x128.png', titre: "TRACABILITE", texte: "Tracer les produits forestiers et les documents émis par le système à travers leurs numéros de code-barres" },
     { id: 17, icon: './dossiericon/ressources/icons/iconRAPPORT_128x128.png', titre: "RAPPORT", texte: "Enregistrer les différents contrôles effectués par l'Administration forestière, compiler les données collectées sur le terrainn et produire les rapports" },
     { id: 18, icon: './dossiericon/ressources/icons/iconCONTROLE_128x128.png', titre: "CONTROLE", texte: "Produire les rapportds d'analyse de l'activité forestière et ceux demandés par l'annexe 7 de l'APV" },
 ]
 
+
 export const Modules = () => {
+    
     return (
         <div>
             {/* <div className="modules">
