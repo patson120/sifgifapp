@@ -16,7 +16,7 @@ export const Criteres = () => {
             {tableau.map(item => (
                 <div key={item.id} className="block" style={item.styles}>
                     <p>{item.titre}</p>
-                    <div className="icon"> <i className='fas fa-calendar-check'></i></div>
+                    <div className="icon"><img src="./dossiericon/ressources/icons/iconINVENTAIRE_128x128.png" alt="" /></div>
                 </div>)
             )}
         </div>
