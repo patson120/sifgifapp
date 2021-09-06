@@ -26,11 +26,14 @@
 
 @media (max-width: 933px){
     .page2 .criteres{
-        display: block;
-        
+        display: block;  
     }
     .page2 .criteres > div{
         width: 100% !important;
+        height: auto;
+    }
+    .page2 .criteres .image{
+        width: 100%;
         height: auto;
     }
 }
@@ -47,8 +50,7 @@
     height: 18rem;
 }
 
-.page2 .criteres .image
-{
+.page2 .criteres .image{
     width: 45%;
 }
 .page2 .criteres .image > img {

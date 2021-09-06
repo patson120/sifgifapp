@@ -1,7 +1,7 @@
 .blocks .block{
     margin-right: 5%;
     margin-left: 5%;
-    height: 35px;
+    height: auto;
     margin-bottom: 15px;
     float: right;
     color: var(--white-color);
