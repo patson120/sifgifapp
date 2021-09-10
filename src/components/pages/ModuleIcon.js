@@ -37,8 +37,8 @@ const Modal = (props) => {
                     <div className="icon">
                         <img src={icon.icon} alt="" />
                     </div>
-                    <h1 className="titre">{icon.titre}</h1>
-                    <p className="description">{icon.texte}</p>
+                    <h1 className="titre" style={{color: 'black'}}>{icon.titre}</h1>
+                    <p className="description" style={{color: 'black'}}>{icon.texte}</p>
                 </div>
             </div>
         </div>

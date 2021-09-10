@@ -5,12 +5,12 @@
 }
 
 .navBar{
-    background: #fff;
+    background: transparent;
     border-top: green 2px solid;
     width: 100vw;
 }
 .navBar .menu{
-    width: 80%;
+    width: 90%;
     margin: auto;
     display: flex;
     justify-content: space-between;
@@ -60,8 +60,10 @@
 .navBar .menu .links .link{
     display: inline-block;
     text-decoration: none;
+    border: none !important;
     padding: 5px 15px;
     font-size: 18px;
+    color: white !important;
 }
 .navBar .menu .links{
     display: block;
@@ -107,8 +109,9 @@
     font-size: 18px;
     font-weight: normal;
     text-decoration: none;
+    border: none !important;
     text-align: center;
-    color:  var(--white-color);
+    color:  var(--white-color) !important;
 }
 .navBar .menu .sub-links .menu .link:hover,
 .navBar .menu .sub-links .menu .link:focus{
@@ -132,7 +135,7 @@
     display: block;
 }
 
-@media (max-width: 830px){
+@media (max-width: 736px){
     .navBar .menu .links{
         display: none;
     }

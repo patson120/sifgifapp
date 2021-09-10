@@ -14,7 +14,8 @@ body{
     overflow-x: hidden;
 }
 .navBar{
-    margin-bottom: 70px;
+    padding-bottom: 5px;
+    padding-top: 5px;
 }
 
 .block-titre {
@@ -50,5 +51,23 @@ body{
 @media (max-width: 550px){
     .block-titre .grand-titre{
         font-size: 14px;
+    }
+}
+
+.banniere{
+	background-image: url(../../images/bgc.jpg);
+    background-position: left top;
+}
+
+
+@keyframes zoomer {
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.2);
+    }
+    100%{
+        transform: scale(1);
     }
 }

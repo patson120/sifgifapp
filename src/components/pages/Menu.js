@@ -8,9 +8,9 @@ export const Menu = () => {
         <div className="navBar">
             <div className="menu">
                 <div className="blocks-logo">
-                    <div className="logo-cam">
+                    {/* <div className="logo-cam">
                         <img src="./gerb.png" alt="" />
-                    </div>
+                    </div> */}
                     <div className="image-logo">
                         <a href="http://sigif2.cm/sigif/" >
                             <img src="./dossiericon/ressources/images/LogoSIGIF_540x540.png" alt='logo' />
@@ -20,7 +20,7 @@ export const Menu = () => {
                 <div className="links">
                     <Link to="/" className="link" >Accueil</Link>
                     <Link to="/modules" className="link" >Modules</Link>
-                    <Link to="/services" className="link" >Services</Link>
+                    <a href="#services" className="link" >Services</a>
                     <Link to="/criteres" className="link" >Critères</Link>
                     <Link to="/actualite" className="link" >Actualité</Link>
                     <a href="http://sigif2.cm/sigif/" target="_blank" rel="noreferrer" className="link" >Portail</a>

@@ -33,7 +33,11 @@
         height: auto;
     }
     .page2 .criteres .image{
-        width: 100%;
+        width: 90% !important;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: auto ;
         height: auto;
     }
 }
@@ -52,7 +56,20 @@
 
 .page2 .criteres .image{
     width: 45%;
+    overflow: hidden;
 }
+
+.page2 .criteres .image:hover img{
+    animation-name: zoomer;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate;
+}
+
+
+
+
+
 .page2 .criteres .image > img {
     width: 100%;
     height: 100%;

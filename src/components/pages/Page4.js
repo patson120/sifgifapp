@@ -1,7 +1,8 @@
 import React from 'react';
 import { Modules } from './Modules';
 import { Menu } from './Menu';
-import { Title } from './Title';
+import { Banniere } from './Banniere';
+import { Services } from './Services';
 
 export const Page4 = () => {
     return (
@@ -9,9 +10,14 @@ export const Page4 = () => {
             <div>
                 <Menu />
             </div>
-            <Title title="SIGIF 2 : MODULES" />
+            <div className="banniere">
+                <Banniere />
+            </div>
             <div>
                 <Modules />
+            </div>
+            <div id="services">
+                <Services />
             </div>
         </div>
     )

@@ -1,6 +1,7 @@
 
 import './App.css';
 import { Accueil } from './components/pages/Accueil';
+// import { Index } from './components/pages/Index';
 import { Page2 } from './components/pages/Page2';
 import { Page3 } from './components/pages/Page3';
 import { Page4 } from './components/pages/Page4';
@@ -13,6 +14,7 @@ function App() {
 
     <BrowserRouter>
       <Switch>
+        {/* <Route exact path="/" component={Index} /> */}
         <Route exact path="/" component={Accueil} />
         <Route exact path="/criteres"  component={Page2} />
         <Route exact path="/services" component={Page3} />

@@ -9,6 +9,7 @@ import { Title } from './Title';
 export const Page2 = () => {
     return (
         <div className="page2">
+            
             <div>
                 <Menu />
             </div>
@@ -25,6 +26,7 @@ export const Page2 = () => {
                 </div>
             </div>
             <Title title="SIGIF 2 : LES PLATEFORMES" />
+            
         </div>
     )
 }
