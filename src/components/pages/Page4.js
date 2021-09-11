@@ -3,14 +3,14 @@ import { Modules } from './Modules';
 import { Menu } from './Menu';
 import { Banniere } from './Banniere';
 import { Services } from './Services';
-import { Message } from './Message';
+// import { Message } from './Message';
 import { ModuleSigif } from './ModuleSigif';
 import { CRITERES } from './Constants';
 
 export const Page4 = () => {
     return (
         <div className="page4">
-            <div><Message /></div>
+            {/* <div><Message /></div> */}
             <div><Menu /></div>
             <div className="banniere"><Banniere /></div>
             <div><Modules /></div>
