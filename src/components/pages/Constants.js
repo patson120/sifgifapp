@@ -3,9 +3,9 @@ export const SERVICES = [
     { id: 1, icon: "images/arbre_abattage.jpg", titre: 'PERMIS', options: ['Demande en ligne', 'Traitement', 'Emission', 'Mise à disposition du permis'], backgroundColor: 'rgba(216, 82, 33, 0.849)' },
     { id: 2, icon: "images/lettre_de_voiture.png", titre: 'LETTRES DE VOITUTRE', options: ['Enregistrement', 'Soumission', 'Impression'], backgroundColor: 'rgba(128, 128, 128, 0.828)' },
     { id: 3, icon: "images/certifat_legalite.jpg", titre: 'CERTIFICAT DE LEGALITE', options: ['Demande en ligne', 'Traitement', 'Emission', 'Mise à disposition du certificat'], backgroundColor: 'rgb(245, 210, 10)' },
-    { id: 4, icon: "images/arbre_abattage.jpg", titre: 'BULLETIN DE SPECIFICATION DES BOIS A L\'EXPORT', options: ['Demande en ligne', 'Traitement', 'Emission', 'Mise à disposition du bulletin'], backgroundColor: 'rgba(74, 74, 238, 0.931)' },
-    { id: 5, icon: "images/arbre_abattage.jpg", titre: 'ATTESTATION DE CONFORMITE DES PRODUITS', options: ['Demande en ligne', 'Traitement', 'Emission', 'Mise à disposition de l\'attestation'], backgroundColor: 'rgba(32, 92, 32, 0.924)' },
-    { id: 6, icon: "images/arbre_abattage.jpg", titre: 'AUTORISATION FLEGT', options: ['Demande en ligne', 'Traitement', 'Emission', 'Mise à disposition de l\'autorisation'], backgroundColor: 'rgb(219, 87, 34)' },
+    { id: 4, icon: "images/bulletin_specification.jpg", titre: 'BULLETIN DE SPECIFICATION DES BOIS A L\'EXPORT', options: ['Demande en ligne', 'Traitement', 'Emission', 'Mise à disposition du bulletin'], backgroundColor: 'rgba(74, 74, 238, 0.931)' },
+    { id: 5, icon: "images/attestation_conformite.jpg", titre: 'ATTESTATION DE CONFORMITE DES PRODUITS', options: ['Demande en ligne', 'Traitement', 'Emission', 'Mise à disposition de l\'attestation'], backgroundColor: 'rgba(32, 92, 32, 0.924)' },
+    { id: 6, icon: "images/autorisation_flegt.png", titre: 'AUTORISATION FLEGT', options: ['Demande en ligne', 'Traitement', 'Emission', 'Mise à disposition de l\'autorisation'], backgroundColor: 'rgb(219, 87, 34)' },
 ]
 
 export const MODULES = [
@@ -27,4 +27,13 @@ export const MODULES = [
     { id: 16, icon: './dossiericon/ressources/icons/iconTRACABILITE_128x128.png', titre: "TRACABILITE", texte: "Tracer les produits forestiers et les documents émis par le système à travers leurs numéros de code-barres" },
     { id: 17, icon: './dossiericon/ressources/icons/iconRAPPORT_128x128.png', titre: "RAPPORT", texte: "Enregistrer les différents contrôles effectués par l'Administration forestière, compiler les données collectées sur le terrainn et produire les rapports" },
     { id: 18, icon: './dossiericon/ressources/icons/iconCONTROLE_128x128.png', titre: "CONTROLE", texte: "Produire les rapportds d'analyse de l'activité forestière et ceux demandés par l'annexe 7 de l'APV" },
+]
+
+export const ACTUALITES = [
+    { id: 1, ressource: "Actualité", link: "#", src: "./images/pexels-photo-1112186.jpeg", description: "A l'ombre de Quercus, rencontre avec le forestier et auteur Laurent Tillon" },
+    { id: 2, ressource: "Vidéo", link: "#", src: "./images/images.jpg", description: "Agir pour la biodiversité : un engagement au quotidien à l'ONF, 7 actions concrètes" },
+    { id: 3, ressource: "Vidéo", link: "#", src: "./images/images_1.jpg", description: "Rapport d'activité 2020 de l'ONF" },
+    { id: 4, ressource: "Rapport", link: "#", src: "./images/bg.jpg", description: "“Nos équipes DFCI sont très mobilisées dans le sud de la France, et restent vigilantes dans les…" },
+    { id: 5, ressource: "Interview", link: "#", src: "./images/images_2.jpg", description: "“Raconte-moi la forêt” : la page qui vous conte la forêt et ses secrets" },
+    { id: 6, ressource: "Actualité", link: "#", src: "./images/images_4.jpg", description: "Concours photo : #DestinationForêt, à vos clichés !" },
 ]

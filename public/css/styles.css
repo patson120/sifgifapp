@@ -8,7 +8,7 @@
 
 body{
     background-repeat: no-repeat;
-    background-image: url(../images/bgimage.jpg);
+    background-image: url(../images/bg3.jpg);
     background-size: cover;
     background-position: center;
     overflow-x: hidden;
@@ -55,7 +55,7 @@ body{
 }
 
 .banniere{
-	background-image: url(../../images/bgc.jpg);
+	background-image: url(../../images/bg4.jpg);
     background-position: left top;
 }
 

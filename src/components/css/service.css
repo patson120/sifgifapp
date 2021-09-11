@@ -6,13 +6,15 @@
     background-color: #cecece;
     border-top: 2px solid rgba(255, 72, 0, 0.767);
     border-bottom: 2px solid rgba(255, 72, 0, 0.767);
+    max-width: 100vw;
+    overflow: hidden;
 }
 .services .service{
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #cecece;
-    margin-bottom: 120px;
+    margin-bottom: 20px;
 }
 .services .service .block-1{
     height: 35rem;
@@ -156,7 +158,7 @@
   }
 
   .prev{
-      left: .2%;
+      left: 0%;
       background: var(--green-color);
   }
   
@@ -262,5 +264,13 @@
   .animRight{
     animation: animRight .5s linear;
     transition: all .5s linear;
+}
+
+.liste_actu{
+    padding-bottom: 50px;
+}
+
+.liste_actu .Button{
+    text-align: center;
 }
 

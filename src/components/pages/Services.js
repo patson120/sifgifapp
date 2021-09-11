@@ -1,10 +1,14 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { useEffect } from 'react';
 import '../css/service.css';
+import { Actualite } from './Actualite';
+import { Button } from './Button';
 import { SERVICES } from './Constants';
+import { ACTUALITES } from './Constants';
 
 export const Services = () => {
-
+    const [actualites, setActualites] = useState(ACTUALITES.slice(0, 3));
+    const [allActu, setAllActu] = useState(false);
     var slideIndex = 1;
 
     const plusSlides = (n) => {
@@ -19,7 +23,7 @@ export const Services = () => {
         var i;
         var slides = document.querySelectorAll(".service");
         var dots = document.querySelectorAll(".dot");
-       
+
         if (n > slides.length) {
             slideIndex = 1;
         }
@@ -30,14 +34,23 @@ export const Services = () => {
         for (i = 0; i < dots.length; i++) {
             dots[i].classList.remove("active");
         }
-        slides[slideIndex - 1].style.display = "flex";
-        dots[slideIndex - 1].classList.add("active");
+        if (slides[slideIndex - 1]) {
+            slides[slideIndex - 1].style.display = "flex";
+            dots[slideIndex - 1].classList.add("active");
+        }
     }
 
+    window.addEventListener('load', () => {
+        setInterval(() => {
+            slideIndex += 1;
+            showSlides(slideIndex);
+        }, 5000);
+    });
 
-    useEffect(() => {
-        showSlides(slideIndex);
-    }, [slideIndex])
+    const handleClick = (e) => {
+        setAllActu(true)
+        setActualites(ACTUALITES); 
+    }
 
     useEffect(() => {
         const ratio = 0.5;
@@ -71,11 +84,16 @@ export const Services = () => {
                     index % 2 ? <Service key={index} item={item} premier={2} second={1} /> : <Service key={index} item={item} premier={1} second={2} />))}
                 <span className="prev" onClick={(e) => plusSlides(-1)}>&#10094;</span>
                 <span className="next" onClick={(e) => plusSlides(1)}>&#10095;</span>
+                <div style={{ textAlign: 'center' }}>
+                    {SERVICES.map((item, index) => (
+                        <span key={index} className="dot" onClick={(e) => currentSlide(index)}></span>
+                    ))}
+                </div>
             </div>
-            <div style={{ textAlign: 'center' }}>
-                {SERVICES.map((item, index) => (
-                    <span key={index} className="dot" onClick={(e) => currentSlide(index)}></span>
-                ))}
+            <div className="liste_actu">
+                <Actualite actualites={actualites} />
+                { !allActu ? <Button title="Toutes les actualités" handleClick={handleClick} /> : null}
+                
             </div>
         </>
     );
@@ -100,5 +118,5 @@ export const Service = (props) => {
                 </div>
             </div>
         </div>
-    )
-}
+    );
+};

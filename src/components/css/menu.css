@@ -122,10 +122,11 @@
 
 .navBar .menu .sub-links .hamburger .bar{
     width: 30px;
-    background: #000;
-    border: 2.5px solid #000;
+    background: var(--white-color);
+    border: 2.5px solid var(--white-color);
     margin-top: 7px;
     margin-bottom: 7px;
+    border-radius: 3px;
 }
 
 .navBar .menu .sub-links .hamburger .bar:nth-child(3){

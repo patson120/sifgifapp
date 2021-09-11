@@ -8,9 +8,12 @@
 }
 
 .actualite .actualite-body .grand-titre{
-    color: black;
-    font-weight: bold;
+    color: white;
+    font-weight: 900;
+    letter-spacing: 4px;
     font-size: 36px;
+    margin-top: 20px;
+
 }
 
 .actualite .banniere{
@@ -125,7 +128,6 @@
 }
 .actualite .actualite-body .type-actu{
     margin-top: 70px;
-    margin-bottom: 100px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -145,14 +147,17 @@
     height: 25rem;
     background: gray;
     margin-bottom: 40px;
+    border-radius: 8px;
+    overflow: hidden;
     position: relative;
 }
 
 .actualite .actualite-body .type-actu .actu .ressource{
     position: absolute;
-    top: -16px;
-    right: 0;
+    top: -8px;
+    right: -8px;
     padding: 5px 20px;
+    border-radius: 5px;
     color: var(--white-color);
     background: var(--green-color);
 }

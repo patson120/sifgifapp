@@ -111,12 +111,12 @@ input, select, textarea {
 		-ms-transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		border-bottom: dotted 1px;
-		color: #e44c65;
+		color: var(--white-color);
 		text-decoration: none;
 	}
 
 		a:hover {
-			color: #e44c65 !important;
+			color: var(--white-color) !important;
 			border-bottom-color: transparent;
 		}
 
@@ -253,7 +253,7 @@ input, select, textarea {
 	transform: translate3d(0,0,0);
 /* Set your background with this */
 
-	background: url(../../images/bg.jpg) bottom left;
+	background: url(../../images/bg3.jpg) bottom left;
 	background-repeat: repeat-x;
 	height: 100%;
 	opacity: 1;

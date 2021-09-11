@@ -1,0 +1,62 @@
+.message{
+    background-color: var(--green-color);
+    display: flex;
+    opacity: 0;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    position: absolute;
+    border-radius: 8px;
+    height: auto;
+    width: auto;
+    top: 2rem;
+    left: 2rem;
+    z-index: 9999;
+}
+.message p{
+    font-size: 36px;
+    margin: 0;
+    font-weight: 900;
+    letter-spacing: 4px;
+    font-style: italic;
+    text-align: center;
+    position: relative;
+}
+
+.messageL{
+    animation: messageL 1.5s ease-in-out;
+    transition: all 1.5s ease-in-out;
+}
+
+.messageR{
+    animation: messageR 1.5s ease-in-out;
+    transition: all 1.5s ease-in-out;
+}
+
+@keyframes messageL {
+    from{
+        transform: translateX(-100rem);
+        opacity: 0.2;
+        transition: all 1.5s ease-in-out;
+    }
+    to{
+        transform: translateX(0);
+        opacity: 1;
+        transition: all 1.5s ease-in-out;
+    }
+    
+}
+
+@keyframes messageR {
+    from{
+        transform: translateX(0);
+        opacity: 1;
+        transition: all 1.5s ease-in-out;
+    }
+    to{
+        transform: translateX(-100rem);
+        opacity: 0.2;
+        transition: all 1.5s ease-in-out;
+    }
+    
+}
