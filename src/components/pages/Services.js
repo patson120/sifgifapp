@@ -93,7 +93,6 @@ export const Services = () => {
             <div className="liste_actu">
                 <Actualite actualites={actualites} />
                 { !allActu ? <Button title="Toutes les actualités" handleClick={handleClick} /> : null}
-                
             </div>
         </>
     );

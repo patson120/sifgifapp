@@ -59,6 +59,30 @@ body{
     background-position: left top;
 }
 
+#criteres{
+    background-image: url(../../images/bg5.jpg);
+    background-repeat: no-repeat;
+    background-position: fixed center;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#criteres .critere{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+#criteres .critere .ModuleSigif{
+    background:  #cecece !important;
+    color: black;
+    font-weight: 600;
+    margin-bottom: 50px;
+    height: 12rem;
+}
+
 
 @keyframes zoomer {
     0%{
@@ -70,4 +94,20 @@ body{
     100%{
         transform: scale(1);
     }
+}
+
+#footer{
+    width: 100vw;
+    height: 15rem;
+    color: gray;
+    background: rgba(0, 0, 0, 0.699);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 768px){
+    #footer{
+        height: 8rem;
+    }  
 }

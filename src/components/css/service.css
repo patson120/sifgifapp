@@ -4,8 +4,8 @@
     margin: auto;
     padding: 50px;
     background-color: #cecece;
-    border-top: 2px solid rgba(255, 72, 0, 0.767);
-    border-bottom: 2px solid rgba(255, 72, 0, 0.767);
+    /* border-top: 2px solid rgba(255, 72, 0, 0.767);
+    border-bottom: 2px solid rgba(255, 72, 0, 0.767); */
     max-width: 100vw;
     overflow: hidden;
 }

@@ -16,13 +16,19 @@
 	/* Set your background with this */ 
 
 	background-repeat: repeat-x;
-	height: 100vh;
+	height: 70vh;
 	opacity: 1;
 	position: relative;
 }
 .banniere{
     background-size: 2250px;
     width: 6750px;
+}
+ 
+@media (max-width: 768px){
+	.banniere{
+		height: 20vh !important;
+	}
 }
 
 @keyframes banniere {

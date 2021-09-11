@@ -37,3 +37,11 @@ export const ACTUALITES = [
     { id: 5, ressource: "Interview", link: "#", src: "./images/images_2.jpg", description: "“Raconte-moi la forêt” : la page qui vous conte la forêt et ses secrets" },
     { id: 6, ressource: "Actualité", link: "#", src: "./images/images_4.jpg", description: "Concours photo : #DestinationForêt, à vos clichés !" },
 ]
+
+export const CRITERES = [
+    { id: 1, texte: 'Légalité de l\'entité forestière', icon: './dossiericon/ressources/icons/iconCONTROLE_128x128.png' },
+    { id: 2, texte: 'Suivi national de l\'activité forestière', icon: './dossiericon/ressources/icons/iconRAPPORT_128x128.png' },
+    { id: 3, texte: 'Contrôle national de l\'activité forestière', icon: './dossiericon/ressources/icons/iconCONTENTIEUX_128x128.png' },
+    { id: 4, texte: 'Conformité de chaîne d\'approvisionnement', icon: './dossiericon/ressources/icons/iconOPEPARC_128x128.png' },
+    { id: 5, texte: 'Emission des autorisations FLEGT', icon: './dossiericon/ressources/icons/iconCODEBARRE_128x128.png' },
+]
