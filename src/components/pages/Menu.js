@@ -8,9 +8,6 @@ export const Menu = () => {
         <div className="navBar">
             <div className="menu">
                 <div className="blocks-logo">
-                    {/* <div className="logo-cam">
-                        <img src="./gerb.png" alt="" />
-                    </div> */}
                     <div className="image-logo">
                         <a href="http://sigif2.cm/sigif/" >
                             <img src="./dossiericon/ressources/images/LogoSIGIF_540x540.png" alt='logo' />
