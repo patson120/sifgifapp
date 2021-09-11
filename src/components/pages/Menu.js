@@ -21,7 +21,7 @@ export const Menu = () => {
                     <Link to="/" className="link" >Accueil</Link>
                     <Link to="/modules" className="link" >Modules</Link>
                     <a href="#services" className="link" >Services</a>
-                    <Link to="/criteres" className="link" >Critères</Link>
+                    <a href="#criteres" className="link" >Critères</a>
                     <a href="#liste_actu" className="link" >Actualité</a>
                     <a href="http://sigif2.cm/sigif/" target="_blank" rel="noreferrer" className="link" >Portail</a>
                 </div>
