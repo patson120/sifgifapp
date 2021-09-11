@@ -23,7 +23,7 @@ export const Menu = () => {
                     <a href="#services" className="link" >Services</a>
                     <a href="#criteres" className="link" >Critères</a>
                     <a href="#liste_actu" className="link" >Actualité</a>
-                    <a href="http://sigif2.cm/sigif/" target="_blank" rel="noreferrer" className="link" >Portail</a>
+                    <a href="http://sigif2.cm/sigif/" target="_blank" rel="noreferrer"className="link" >Portail</a>
                 </div>
                 <div className="sub-links">
                     <div className="hamburger">
