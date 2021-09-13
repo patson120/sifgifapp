@@ -82,7 +82,7 @@ input, select, textarea {
 		box-sizing: inherit;
 	}
 	html, body {
-		background: linear-gradient(90deg, #2c3128c7 0%, #525f74 50%, #352f4d 80%);
+		background: linear-gradient(90deg, #2c3128c7 0%, #525f74 50%, #2c3128c7 80%);
 		/* background: #1c1d26; */
 	}
 

@@ -21,7 +21,7 @@ export const ModuleSigif = (props) => {
         const ratio = 0.5;
         const options = {
             root: null,
-            rootMargin: '',
+            rootMargin: '0px',
             threshold: ratio,
         }
         const handleObserver = (entries, observer) => {
