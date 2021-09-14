@@ -7,11 +7,11 @@ import { Link as Scroll } from 'react-scroll'
 export const Menu = (props) => {
 
     return (
-        <div className="navBar">
+        <div id="navBar" className="navBar">
             <div className="menu">
                 <div className="blocks-logo">
                     <div className="image-logo">
-                        <a href="http://sigif2.cm/sigif/" target="_blank" rel="noopener norefer">
+                        <a href="http://sigif2.cm/sigif/" target="_blank" rel="noopener noreferrer">
                             <img src="./dossiericon/ressources/images/LogoSIGIF_540x540.png" alt='logo' />
                         </a>
                         <p className="tooltipText">Acceder au portail</p>

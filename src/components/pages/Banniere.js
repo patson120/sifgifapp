@@ -4,7 +4,7 @@ import '../css/banniere.css';
 
 export const Banniere = () => {
     return (
-        <div className="banniere">
+        <div id="banniere" className="banniere">
         </div>
     );
 }

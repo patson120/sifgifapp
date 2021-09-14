@@ -1,0 +1,29 @@
+.ScrollTop{
+    background: var(--green-color);
+    width: auto;
+    height: auto;
+    position: fixed;
+    top: 85vh;
+    left: 93vw;
+    z-index: 999999;
+    transform: rotate(45deg);
+    border: none;
+}
+.ScrollTop .fa-chevron-up{
+    color: white;
+    font-size: 24px;
+    font-weight: 900;
+    padding: 8px 10px;
+    transform: rotate(-45deg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.ScrollTop:hover{
+   background: gray;
+}
+.ScrollTop:hover .fa-chevron-up{
+    color: black;
+}
