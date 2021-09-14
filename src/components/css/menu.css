@@ -6,7 +6,7 @@
 
 .navBar{
     /* background: transparent; */
-    background: linear-gradient(90deg, #2c3128c7 0%, #525f7477 50%, #2c3128c7 80%);
+    background: linear-gradient(90deg, #2c3128c7 0%, 50%, #2c3128c7 80%);
     opacity: 1;
     width: 100vw;
     position: fixed;
