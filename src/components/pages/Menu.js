@@ -11,9 +11,10 @@ export const Menu = (props) => {
             <div className="menu">
                 <div className="blocks-logo">
                     <div className="image-logo">
-                        <a href="http://sigif2.cm/sigif/" >
+                        <a href="http://sigif2.cm/sigif/" target="_blank" rel="noopener norefer">
                             <img src="./dossiericon/ressources/images/LogoSIGIF_540x540.png" alt='logo' />
                         </a>
+                        <p className="tooltipText">Acceder au portail</p>
                     </div>
                 </div>
                 <div className="links">

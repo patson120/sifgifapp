@@ -5,7 +5,9 @@
 }
 
 .navBar{
-    background: transparent;
+    /* background: transparent; */
+    background: linear-gradient(90deg, #2c3128c7 0%, #525f7477 50%, #2c3128c7 80%);
+    opacity: 1;
     width: 100vw;
     position: fixed;
     top: 0;
@@ -18,6 +20,36 @@
     display: flex;
     justify-content: space-between;
 }
+.navBar .menu .image-logo{
+    position: relative;
+    overflow: visible !important;
+}
+.navBar .menu .image-logo a {
+    border: none;
+}
+
+.navBar .menu .image-logo .tooltipText{
+    visibility: hidden;
+    width: auto;
+    height: auto;
+    background: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 20px;
+    position: absolute;
+    top: 110%;
+    left: 50%;
+    transform: translateX(-50px);
+    white-space: nowrap;
+    opacity: 0;
+    transition: opacity 1s;
+}
+.navBar .menu .image-logo:hover .tooltipText{
+    visibility: visible;
+    opacity: 1;
+}
+
 .navBar .menu .image-logo, 
 .navBar .menu .logo-cam{
     width: auto;
@@ -25,7 +57,7 @@
     overflow: hidden;
 }
 .navBar .menu .blocks-logo{
-    height: 3rem;
+    height: 3.5rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -65,6 +97,7 @@
     text-decoration: none;
     border: none !important;
     padding: 5px 15px;
+    cursor: pointer !important;
     font-size: 18px;
     color: white !important;
 }
@@ -122,6 +155,7 @@
     text-decoration: none;
     border: none !important;
     text-align: center;
+    cursor: pointer;
     color:  var(--white-color) !important;
 }
 .navBar .menu .sub-links .menu .link:hover,
