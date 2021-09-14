@@ -840,6 +840,13 @@
 		padding: 0;
 	}
 }
+
+@media screen and (max-width: 736px) {
+	#header .titre{
+		margin-top: 12rem;
+		padding: 0;
+	}
+}
 	@media screen and (max-width: 480px) {
 
 		/* BG */
