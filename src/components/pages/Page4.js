@@ -50,7 +50,7 @@ export const Footer = () => {
             <p>(c)&ensp;&bull;&ensp;Copyright Flysoft-Engineering & Patrick Kenne</p>
         </div>
     );
-}
+};
 
 export const ScrollTop = () => {
     return (
@@ -63,4 +63,4 @@ export const ScrollTop = () => {
             duration={3000}
             className="ScrollTop"><i className="fa fa-chevron-up"></i></Scroll>
     );
-}
+};
