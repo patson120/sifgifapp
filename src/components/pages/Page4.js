@@ -62,8 +62,7 @@ export const ScrollTop = () => {
             offset={-70}
             duration={3000}
             className="ScrollTop">
-            <i className="fa fa-user"></i>
-            <i class="fa fa-users" aria-hidden="true"></i>
+            <i className="fa fa-chevron-up"></i>
         </Scroll>
     );
 };

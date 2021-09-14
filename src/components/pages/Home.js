@@ -23,11 +23,11 @@ export const Home = () => {
 										<img src="./dossiericon/ressources/images/LogoSIGIF_540x540.png" className="App-logo" alt="logo" />
 									</a>
 								</div>
-								<li><Link to="#" className="icon brands fa-twitter"><span className="label">Twitter</span></Link></li>
-								<li><Link to="#" className="icon brands fa-facebook-f"><span className="label">Facebook</span></Link></li>
-								<li><Link to="#" className="icon brands fa-dribbble"><span className="label">Dribbble</span></Link></li>
-								<li><Link to="#" className="icon brands fa-github"><span className="label">Github</span></Link></li>
-								<li><Link to="#" className="icon solid fa-envelope"><span className="label">Email</span></Link></li>
+								<li><Link to="#" className="icon brands fa fa-twitter" aria-hidden="true"><span className="label">Twitter</span></Link></li>
+								<li><Link to="#" className="icon brands fa fa-facebook-f"><span className="label">Facebook</span></Link></li>
+								<li><Link to="#" className="icon brands fa fa-dribbble"><span className="label">Dribbble</span></Link></li>
+								<li><Link to="#" className="icon brands fa fa-github"><span className="label">Github</span></Link></li>
+								<li><Link to="#" className="icon solid fa fa-envelope"><span className="label">Email</span></Link></li>
 							</ul>
 						</nav>
 					</header>
