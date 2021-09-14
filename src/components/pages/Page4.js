@@ -8,10 +8,17 @@ import { ModuleSigif } from './ModuleSigif';
 import { CRITERES } from './Constants';
 
 export const Page4 = () => {
+    const ListMenu = [
+        {id: 1, libelle: 'Accueil', link: '/',},
+        {id: 2, libelle: 'Services', link: 'services',},
+        {id: 3, libelle: 'Critères', link: 'criteres',},
+        {id: 4, libelle: 'Actualité', link: 'liste_actu',},
+    ]
+
     return (
         <div className="page4">
             {/* <div><Message /></div> */}
-            <div><Menu /></div>
+            <div><Menu ListMenu = { ListMenu } /></div>
             <div className="banniere"><Banniere /></div>
             <div><Modules /></div>
             <div id="services"><Services /></div>

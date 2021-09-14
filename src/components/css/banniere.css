@@ -16,7 +16,7 @@
 	/* Set your background with this */ 
 
 	background-repeat: repeat-x;
-	height: 70vh;
+	height: 90vh;
 	opacity: 1;
 	position: relative;
 }
@@ -27,7 +27,7 @@
  
 @media (max-width: 768px){
 	.banniere{
-		height: 20vh !important;
+		height: 60vh !important;
 	}
 }
 
