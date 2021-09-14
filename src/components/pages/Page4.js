@@ -61,6 +61,8 @@ export const ScrollTop = () => {
             smooth={true}
             offset={-70}
             duration={3000}
-            className="ScrollTop"><i className="fa fa-chevron-up"></i></Scroll>
+            className="ScrollTop">
+            <i className="fa fa-chevron-up"></i>
+        </Scroll>
     );
 };
