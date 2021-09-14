@@ -32,6 +32,7 @@ export const Menu = (props) => {
                                 key={item.id} className='link' >{item.libelle}</Scroll>
                     ))}
                     <a href="http://sigif2.cm/sigif/" target="_blank" rel="noreferrer" className="link Portail" >Portail</a>
+                    <span><i className="fa fa-users"></i></span>
                 </div>
                 <div className="sub-links">
                     <div className="hamburger">
