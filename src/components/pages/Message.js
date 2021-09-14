@@ -13,6 +13,7 @@ export const Message = () => {
             document.querySelector('.message').style.opacity = '0';
         }, 6000);
     })
+
     return (
         <>
             <div className="message">
