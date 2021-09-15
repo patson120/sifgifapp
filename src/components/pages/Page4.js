@@ -9,8 +9,6 @@ import { CRITERES } from './Constants';
 import '../css/ScrollTop.css';
 import { Link as Scroll } from 'react-scroll';
 
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-
 export const Page4 = () => {
     
     window.addEventListener('scroll', () => {
@@ -64,7 +62,6 @@ export const ScrollTop = () => {
             offset={-70}
             duration={3000}
             className="ScrollTop">
-           <FontAwesomeIcon icon="users" /> 
             <i className="fa fa-chevron-up"></i>
         </Scroll>
     );
