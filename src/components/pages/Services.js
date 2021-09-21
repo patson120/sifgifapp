@@ -77,20 +77,20 @@ export const Services = () => {
     })
     return (
         <>
-            <div className="services">
-                <h1 className="grand-titre">&bull;&ensp;SERVICES&ensp;&bull;</h1>
-                <div className="separation"></div>
+            <div className="services position-relative container-fuild">
+                <h1 className="text-center font-weight-bold h3 text-dark mb-5">&bull;&ensp;SERVICES&ensp;&bull;</h1>
+                <div className="separation mb-4"></div>
                 {SERVICES.map((item, index) => (
                     index % 2 ? <Service key={index} item={item} premier={2} second={1} /> : <Service key={index} item={item} premier={1} second={2} />))}
                 <span className="prev" onClick={(e) => plusSlides(-1)}>&#10094;</span>
                 <span className="next" onClick={(e) => plusSlides(1)}>&#10095;</span>
-                <div style={{ textAlign: 'center' }}>
+                <div className="text-center">
                     {SERVICES.map((item, index) => (
                         <span key={index} className="dot" onClick={(e) => currentSlide(index)}></span>
                     ))}
                 </div>
             </div>
-            <div className="liste_actu">
+            <div className="my-5">
                 <Actualite actualites={actualites} />
                 { !allActu ? <Button title="Toutes les actualités" handleClick={handleClick} /> : null}
             </div>
@@ -100,18 +100,18 @@ export const Services = () => {
 
 export const Service = (props) => {
     return (
-        <div key={props.item.id} className="service">
-            <div className="block-1" style={{ order: props.premier }}>
-                <div className="image">
-                    <img src={props.item.icon} alt="arbre_abattage" />
+        <div key={props.item.id} className="service w-75 mx-auto row row-cols-xs-1 row-cols-md-2 justify-content-center">
+            <div className="w-100 overflow-hidden h-100" style={{ order: props.premier }}>
+                <div className="h-100 overflow-hidden">
+                    <img src={props.item.icon} alt="arbre_abattage" className="img-fluid w-100 h-100 rounded" />
                 </div>
             </div>
-            <div className="block-2" style={{ order: props.second }}>
-                <div className="sous-block">
-                    <h1 className="titre">{props.item.titre}</h1>
+            <div className="justify-content-center" style={{ order: props.second }}>
+                <div className="m-4 p-2">
+                    <h1 className="font-weight-bold text-dark h5">{props.item.titre}</h1>
                     <ol className="ordered_list">
                         {props.item.options.map((option, index) => (
-                            <li key={index}>{option}</li>
+                            <li style={{ color: 'black', fontWeight: '400'}} key={index}>{option}</li>
                         ))}
                     </ol>
                 </div>

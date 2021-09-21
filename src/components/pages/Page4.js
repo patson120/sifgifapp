@@ -1,22 +1,21 @@
 import React from 'react';
-import { Modules } from './Modules';
 import { Menu } from './Menu';
 import { Banniere } from './Banniere';
 import { Services } from './Services';
-// import { Message } from './Message';
-import { ModuleSigif } from './ModuleSigif';
+import { Modules } from './Modules';
+import { MODULES } from './Constants';
 import { CRITERES } from './Constants';
 import '../css/ScrollTop.css';
 import { Link as Scroll } from 'react-scroll';
 
 export const Page4 = () => {
-    
+
     window.addEventListener('scroll', () => {
-        if (document.querySelector('.ScrollTop')){
-            if (window.scrollY > 900){
+        if (document.querySelector('.ScrollTop')) {
+            if (window.scrollY > 900) {
                 document.querySelector('.ScrollTop').style.display = 'block';
             }
-            else{
+            else {
                 document.querySelector('.ScrollTop').style.display = 'none';
             }
         }
@@ -24,13 +23,14 @@ export const Page4 = () => {
 
     return (
         <div className="page4">
-            {/* <div><Message /></div> */}
             <ScrollTop />
-            <div><Menu ListMenu={ListMenu} /></div>
-            <div className="banniere"><Banniere /></div>
-            <div><Modules /></div>
+            <div className="position-absolute" style={{ zIndex: '2' }}><Menu ListMenu={ListMenu} /></div>
+            <div><Banniere /></div>
+            <div className="my-5 mx-auto">
+                <Modules object={MODULES} />
+            </div>
             <div id="services"><Services /></div>
-            <div id="criteres"><div className="critere"><ModuleSigif object={CRITERES} /></div></div>
+            <div id="criteres"><div className="critere"><Modules object={CRITERES} /></div></div>
             <Footer />
         </div>
     )
@@ -56,7 +56,7 @@ export const ScrollTop = () => {
     return (
         <Scroll
             activeClass="active"
-            to="banniere"
+            to="carousel1"
             spy={true}
             smooth={true}
             offset={-70}

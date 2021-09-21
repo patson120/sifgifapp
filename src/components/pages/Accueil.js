@@ -12,7 +12,7 @@ export const Accueil = () => {
     
     return (
         <div>
-            <div style={{position: 'absolute', top: '0', left: '0', width: '100%', zIndex: '2'}}>
+            <div style={{position: 'absolute', top: '100px', left: '0', width: '100%', zIndex: '2'}}>
                 <Menu ListMenu = { ListMenu } />
             </div>
             <Home />
