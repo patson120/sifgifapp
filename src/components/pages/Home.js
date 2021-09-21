@@ -10,7 +10,6 @@ export const Home = () => {
 		<div>
 			<div className="home">
 				<div id="bg"></div>
-				<div id="overlay"></div>
 				<div id="main">
 					{/* <!-- Header --> */}
 					<header id="header">
@@ -25,8 +24,6 @@ export const Home = () => {
 								</div>
 								<li><Link to="#" className="icon brands fa fa-twitter" aria-hidden="true"><span className="label">Twitter</span></Link></li>
 								<li><Link to="#" className="icon brands fa fa-facebook-f"><span className="label">Facebook</span></Link></li>
-								<li><Link to="#" className="icon brands fa fa-dribbble"><span className="label">Dribbble</span></Link></li>
-								<li><Link to="#" className="icon brands fa fa-github"><span className="label">Github</span></Link></li>
 								<li><Link to="#" className="icon solid fa fa-envelope"><span className="label">Email</span></Link></li>
 							</ul>
 						</nav>
