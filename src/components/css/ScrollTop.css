@@ -3,8 +3,8 @@
     width: auto;
     height: auto;
     position: fixed;
-    top: 85vh;
-    left: 93vw;
+    top: 85%;
+    right: 3%;
     z-index: 999999;
     transform: rotate(45deg);
     border: none;

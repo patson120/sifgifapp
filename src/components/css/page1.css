@@ -1,69 +1,6 @@
 
-#header h2 {
-    font-size: 2.5em;
-    font-weight: 900;
-    letter-spacing: -0.035em;
-    line-height: 1em;
-    text-align: center;
-    padding-left: 50px;
-    padding-right: 50px;
-}
-
 .page1{
     margin-top: -6rem;
     height: 78vh;
     position: relative;
 }
-
-.page1 .title {
-    text-align: center;
-    text-transform: uppercase;
-    font-family: verdana;
-    font-size: 2.5rem;
-    font-weight: 700;
-    color: #f5f5f5;
-    text-shadow: 1px 1px 1px #919191,
-    1px 2px 1px #919191,
-    1px 3px 1px #919191,
-    1px 4px 1px #919191,
-    1px 5px 1px #919191,
-    1px 6px 1px #919191,
-    1px 7px 1px #919191,
-    1px 8px 1px #919191,
-    1px 9px 1px #919191,
-    1px 10px 1px #919191,
-    1px 18px 6px rgba(16,16,16,0.4),
-    1px 22px 10px rgba(16,16,16,0.2),
-    1px 25px 35px rgba(16,16,16,0.2),
-    1px 30px 60px rgba(16,16,16,0.4);
-}
-@media (max-width: 520px) {
-    .page1 .title{
-        font-size: 1.5rem;
-        padding: 3% !important;
-    }
-}
-
-
- .page1 .poll-technique{
-    font-weight: bold;
-    background: var(--white-color);
-    color: var(--green-color);
-    font-size: 14px;
-    position: absolute;
-    bottom: 20%;
-    right: 30%;
- }
-
- @media (max-width: 713px){
-    .page1 .poll-technique{
-        bottom: 2%;
-        right: 10%;
-     }
- }
-
- @media (max-width: 400px){
-    .page1 .poll-technique{
-        bottom: -5px;
-     }
- }

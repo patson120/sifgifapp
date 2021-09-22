@@ -13,8 +13,7 @@ export const Home = () => {
 				<div id="main">
 					{/* <!-- Header --> */}
 					<header id="header">
-						<h2 className="titre">SYSTEME INFORMATIQUE DE <br /> GESTION DES INFORMATIONS FORESTIERES</h2>
-						{/* <p>Security Chief &nbsp;&bull;&nbsp; Cyborg &nbsp;&bull;&nbsp; Never asked for this</p> */}
+						<h2 className="h2 font-weight-bold">SYSTEME INFORMATIQUE DE <br /> GESTION DES INFORMATIONS FORESTIERES</h2>
 						<nav>
 							<ul>
 								<div className="sigif">

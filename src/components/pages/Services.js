@@ -1,5 +1,4 @@
-import React, { useState } from 'react';
-import { useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 import '../css/service.css';
 import { Actualite } from './Actualite';
 import { Button } from './Button';
@@ -74,7 +73,7 @@ export const Services = () => {
         element.forEach(el => {
             observer.observe(el);
         })
-    })
+    });
     return (
         <>
             <div className="services position-relative container-fuild">

@@ -14,7 +14,7 @@ export const Menu = (props) => {
                         <a href="http://sigif2.cm/sigif/" target="_blank" rel="noopener noreferrer">
                             <img src="./dossiericon/ressources/images/LogoSIGIF_540x540.png" alt='logo' />
                         </a>
-                        <p className="tooltipText">Acceder au portail</p>
+                        <p className="tooltipText">Acceder à l'application</p>
                     </div>
                 </div>
                 <div className="links">
