@@ -11,7 +11,7 @@ export const Actualite = (props) => {
         <div className='actualite w-75 mx-auto'>
             <div className="actualite-body container-fluid">
                 <h2 id="liste_actu" className="h1">Actualités</h2>
-                <div className="row row-cols-1 row-cols-md-2 row-cols-lg-3 justify-content-between">
+                <div className="row row-cols-1 row-cols-md-2 row-cols-lg-3 justify-content-center">
                     {props.actualites.map(actualite => (
                         <SingleActu key={actualite.id} actualite={actualite} />
                     ))}

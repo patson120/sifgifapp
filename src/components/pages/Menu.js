@@ -31,7 +31,7 @@ export const Menu = (props) => {
                                 duration={2000}
                                 key={item.id} className='link' >{item.libelle}</Scroll>
                     ))}
-                    <a href="http://sigif2.cm/sigif/" target="_blank" rel="noreferrer" className="link Portail" >Portail</a>
+                    {/* <a href="http://sigif2.cm/sigif/" target="_blank" rel="noreferrer" className="link Portail" >Portail</a> */}
                 </div>
                 <div className="sub-links">
                     <div className="hamburger">

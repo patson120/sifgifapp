@@ -114,3 +114,33 @@ body{
         height: 8rem;
     }  
 }
+
+.Index{
+    background-image: url(../images/bg3.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    align-items: center;
+}
+
+.block-cercle{
+    background-image: url(../LogoSIGIF_540x540.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    align-items: center;
+    animation: block-cercle 3s linear infinite;
+}
+
+@keyframes block-cercle {
+    
+    0%{
+        transform: translate(-50%, -22%);;
+    }
+    50%{
+        transform: translate(-50%, -32%);
+    }
+    100%{
+        transform: translate(-50%, -22%);
+    }
+}
