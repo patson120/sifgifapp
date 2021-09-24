@@ -7,6 +7,7 @@ import { MODULES } from './Constants';
 import { CRITERES } from './Constants';
 import '../css/ScrollTop.css';
 import { Link as Scroll } from 'react-scroll';
+import { Footer } from './Footer';
 
 export const Page4 = () => {
 
@@ -43,14 +44,6 @@ export const ListMenu = [
     { id: 4, libelle: 'Actualité', link: 'liste_actu', },
 ];
 
-
-export const Footer = () => {
-    return (
-        <div id="footer" className="footer">
-            <p>(c)&ensp;&bull;&ensp;Copyright Flysoft-Engineering & Patrick Kenne</p>
-        </div>
-    );
-};
 
 export const ScrollTop = () => {
     return (

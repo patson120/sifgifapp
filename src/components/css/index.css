@@ -30,6 +30,11 @@
 
 .btn.startnow{
     font-size: 22px;
+    position: absolute;
+    top: 40vh;
+    z-index: 2;
+    left: 50%;
+    transform: translate(-50%, -22%);
 }
 
 @media (max-width: 796px){
@@ -60,6 +65,7 @@
     }
     .btn.startnow{
         font-size: 19px !important;
+        top: 58vh;
     }
     
 }
@@ -79,10 +85,11 @@
     .block-cercle{
         width: 10rem;
         height: 10rem;
-        margin-top: 100px !important;
+        margin-top: 150px !important;
     }
     .btn.startnow{
         font-size: 12px !important;
         padding: 5px 15px !important;
+        top: 50vh;
     }
 }

@@ -58,12 +58,12 @@ body{
 }
 
 .banniere{
-	background-image: url(../../images/bg4.jpg);
+	background-image: url(../../images/gettyimages-182921931-612x612.jpg);
     background-position: left top;
 }
 
 #criteres{
-    background-image: url(../../images/bg5.jpg);
+    background-image: url(../../images/gettyimages-182921931-612x612.jpg);
     background-repeat: no-repeat;
     background-position: fixed center;
     background-size: cover;
@@ -116,7 +116,7 @@ body{
 }
 
 .Index{
-    background-image: url(../images/bg3.jpg);
+    background-image: url(../images/gettyimages-1161416667-612x612.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -143,4 +143,12 @@ body{
     100%{
         transform: translate(-50%, -22%);
     }
+}
+
+.detail-descriptions{
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 4;
 }

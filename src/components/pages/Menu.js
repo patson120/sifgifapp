@@ -12,7 +12,7 @@ export const Menu = (props) => {
                 <div className="blocks-logo">
                     <div className="image-logo">
                         <a href="http://sigif2.cm/sigif/" target="_blank" rel="noopener noreferrer">
-                            <img src="./dossiericon/ressources/images/LogoSIGIF_540x540.png" alt='logo' />
+                            <img src="../../dossiericon/ressources/images/LogoSIGIF_540x540.png" alt='logo' />
                         </a>
                         <p className="tooltipText">Acceder à l'application</p>
                     </div>
@@ -57,6 +57,11 @@ export const Menu = (props) => {
                     </div>
                 </div>
 
+            </div>
+            <div style={{display: 'flex', marginBottom: '-10px'}}>
+                <div className="" style={{ border: "solid green 3px", background: 'green', width: '33.33%'}}></div>
+                <div className="" style={{ border: "solid red 3px", background: 'red', width: '33.33%'}}></div>
+                <div className="" style={{ border: "solid yellow 3px", background: 'yellow', width: '33.33%'}}></div>
             </div>
         </div>
     );

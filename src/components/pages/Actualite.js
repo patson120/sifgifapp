@@ -41,11 +41,12 @@ export const SingleActu = (props) => {
         <div className="col mb-4">
             <div key={props.actualite.id} className="actu rounded border-0 overflow-hidden card bg-dark h-100">
                 <p className="position-absolute rounded text-dark font-weight-bold bg-white px-3">{props.actualite.ressource}</p>
-                <Link className="link border-0" to={props.actualite.link}>
+                <Link className="link border-0" to={`/actualite/${props.actualite.id}/detail`} target="_blank">
                     <div className="w-100">
                         <img src={props.actualite.src} alt="" className="img-fluid w-100" />
                     </div>
-                    <p className="px-3">{props.actualite.description}</p>
+                    <p className="px-3">{props.actualite.titre}</p>
+                    {/* <p className="px-3">{props.actualite.description}</p> */}
                 </Link>
             </div>
         </div>

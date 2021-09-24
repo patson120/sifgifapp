@@ -14,16 +14,16 @@ export const Banniere = () => {
                 {/* <!-- The slideshow --> */}
                 <div className="carousel-inner">
                     <div className="carousel-item active w-100 position-relative">
-                        <div className="carousel-caption display-1" style={{position: 'absolute', top: '30%', left: '-30%'}}>SIGIF</div>
-                        <img src="images/bg.jpg" className="img-fluid w-100" alt="" />
+                        <div className="carousel-caption display-5 font-weight-bold" style={{position: 'absolute', top: '30%', left: '3%', fontSize: "32px", lineHeight: '1'}}>Discours À L’occasion De La Position Des Organisations De La Société Civile Sur Le SIGIF2</div>
+                        <img src="../../images/gettyimages-638591634-612x612.jpg" className="img-fluid w-100" alt="" />
                     </div>
                     <div className="carousel-item w-100">
-                    <div className="carousel-caption display-1" style={{position: 'absolute', top: '30%', left: '0%'}}>SIGIF</div>
-                        <img src="images/bg2.jpg" className="img-fluid w-100" alt="" />
+                    <div className="carousel-caption display-5 font-weight-bold" style={{position: 'absolute', top: '30%', left: '3%', fontSize: "32px", lineHeight: '1'}}>Discours À L’occasion De La Position Des Organisations De La Société Civile Sur Le SIGIF2</div>
+                        <img src="../../images/gettyimages-182921931-612x612.jpg" className="img-fluid w-100" alt="" />
                     </div>
                     <div className="carousel-item w-100">
-                    <div className="carousel-caption display-1" style={{position: 'absolute', top: '30%', left: '0%'}}>SIGIF</div>
-                        <img src="images/bg3.jpg" className="img-fluid w-100" alt="" />
+                    <div className="carousel-caption display-5 font-weight-bold" style={{position: 'absolute', top: '30%', left: '3%', fontSize: "32px", lineHeight: '1'}}>Discours À L’occasion De La Position Des Organisations De La Société Civile Sur Le SIGIF2</div>
+                        <img src="../../images/gettyimages-1161416667-612x612.jpg" className="img-fluid w-100" alt="" />
                     </div>
                 </div>
 
