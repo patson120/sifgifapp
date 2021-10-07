@@ -3,6 +3,7 @@ import '../css/index.css';
 import { Link } from 'react-router-dom';
 
 export const Index = () => {
+    
     return (
         <div className="Index">
             <div className="container-fluid rounded-pill" style={{ padding: '8px', background: 'green' }}>
