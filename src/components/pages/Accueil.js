@@ -9,7 +9,6 @@ export const Accueil = () => {
     const ListMenu = [
         {id: 1, libelle: 'Modules', link: '/modules',},
     ]
-    
     return (
         <div>
             <div style={{position: 'absolute', top: '100px', left: '0', width: '100%', zIndex: '2'}}>
